@@ -1,0 +1,21 @@
+{
+    "name": "kwreach/ads",
+    "description": "assign ads to advertisers and send email at 8:00 PM",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "omar-fci",
+            "email": "omar.fci222@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+        ],
+        "psr-4": {
+            "Ads\\":"src"
+        }
+    }
+}
