@@ -15,7 +15,14 @@
         "files": [
         ],
         "psr-4": {
-            "Ads\\":"src"
+            "Kwreach\\Ads\\":"src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kwreach\\Ads\\Providers\\AdsServiceProvider"
+            ]
         }
     }
 }
